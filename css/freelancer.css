@@ -38,6 +38,7 @@ header {
   position: relative;
   background: #228ae6;
   color: white;
+  height: 200vh;
 }
 header .container {
   padding-top: 100px;
@@ -57,8 +58,8 @@ header .intro-text .skills {
 }
 @media (min-width: 768px) {
   header .container {
-    padding-top: 200px;
-    padding-bottom: 100px;
+    padding-top: 8em;
+    padding-bottom: 10em;
   }
   header .intro-text .name {
     font-size: 4.75em;
@@ -71,13 +72,13 @@ header .intro-text .skills {
 /*THUMB ICONS */
 
 .upgrader-icons{
-  padding: 1.2em;
-  margin-top: 5em;
+
+ 
 }
 
 .hover-background {
   margin: 0 auto;
-  background-color:aqua;
+  text-align: center;
   border-radius:0.25em;
 }
 
@@ -149,7 +150,7 @@ header .intro-text .skills {
 }
 @media (min-width: 768px) {
   .navbar-custom {
-    padding: 25px 0;
+    padding: 5px 0;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
     transition: padding 0.3s;
