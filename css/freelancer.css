@@ -90,13 +90,7 @@ header .intro-text .skills {
   background: #034d71;
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
-    
-
-
-
-
-
-
+  
 .navbar-custom {
   background: #e4e4e4;
   font-family: 'PT Sans', sans-serif;
@@ -173,7 +167,7 @@ section {
 }
 section h2 {
   margin: 0;
-  font-size: 3em;
+  font-size: 3.6em;
 }
 section.success {
   background: #18BC9C;
