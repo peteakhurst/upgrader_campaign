@@ -53,6 +53,23 @@ header {
   overflow: hidden;
 }
 
+.logo {
+  width: 100%;
+  height: auto;
+}
+
+.logo-img {
+  width: 80%;
+    position: relative;
+    top: 5px;
+    left: 15px;
+}
+
+.navbar-brand {
+  padding: 0;
+}
+
+
 header .upgrader-icons a {
   text-decoration: none;
   color: lightgoldenrodyellow;
@@ -61,6 +78,11 @@ header .upgrader-icons a {
 header .container {
   padding-top: 80px;
 }
+
+.container .cta-header {
+  padding-top: 0px;
+}
+
 
 header .intro-text .name {
   display: block;
@@ -94,7 +116,8 @@ header .intro-text .skills {
 /*THUMB ICONS */
 
 .upgrader-icons p {
-	text-align: center;
+  font-size: 1.4em;
+  text-align: center;
   padding: 0 4em;
   position: absolute;
   top: 40%;
@@ -103,17 +126,26 @@ header .intro-text .skills {
   right: 0;
 }
 
+.l-m {
+  text-align: center;
+    padding: 0 4em;
+    position: absolute;
+    top: 88%;
+    bottom: 100px;
+    left: 0;
+    right: 0;
+    color: #fff;
+    font-weight: 700;
+}
+
 .u-i {
-		font-size: 12rem;
+    font-size: 12rem;
     text-align: center;
     color: #226dad;
 }
 
 .back-color {
   background: #034d71;
-	border: 3px solid #2C3E50;
-    /*width: 70%;
-    height: 80%;*/
     margin: auto;
     padding: 2em 0;
     border-radius: 3px;
@@ -121,12 +153,8 @@ header .intro-text .skills {
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
-
 .back-color:hover {
   background: rgba(44, 62, 80, 0.72);
-	-webkit-transform: scale(1.2);
-	        transform: scale(1.1);
-  
 }
 
 .mg-4 {
@@ -250,8 +278,7 @@ section h2 {
 }
 
 .success span:last-of-type {
-
-font-size: 2em; 
+  font-size: 1.6em; 
   color: #0082c2;
 }
 
@@ -295,7 +322,14 @@ small {
     color: #fff;
   }
   
+  .success p {
+  font-size: 1.2em;
+}
+
+.success span:last-of-type {
+  font-size: 1.4em; 
   
+}
 }
 
 @media (max-width: 767px) {
@@ -308,7 +342,7 @@ small {
 }
 
 .cta {
-      padding: 5em 0;
+      padding: 2em 0;
 }
 
 /* CONTACT */
@@ -537,8 +571,11 @@ footer .footer-below {
 =================*/
 
 .help {
-  
   color: #555;
+}
+
+#about h2 {
+  color: #0082c2;
 }
 
 .help ul li {
@@ -741,26 +778,7 @@ div#maincontent {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.hidden {
+  visibility: hidden;
+}
 
