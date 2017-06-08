@@ -47,67 +47,19 @@ $(document).ready(function() {
 $(document).ready(function() {
     
     $('.counter-num').counterUp({
-        delay: 5,
-        time: 2000
+        delay: 50,
+        time: 1000
     });
 });
 
-// Waypoints 
 
+// ANIMATE ON SCROLL
 
-$(document).ready(function() {
+     AOS.init({
+  duration: 1200,
+		 })
   
-  $(".first").waypoint(function(){
-    $(".first").addClass('animated bounceInUp')
-  }, {
-    offset: "100%"
-  });
-  
-  $(".second").waypoint(function(){
-    $(".second").addClass('animated fadeInLeft')
-  }, {
-    offset: "100%"
-  });
-  
-  $(".third").waypoint(function(){
-    $(".third").addClass('animated fadeInUp')
-  }, {
-    offset: "100%"
-  });
-  
-  $(".fourth").waypoint(function(){
-    $(".fourth").addClass('animated fadeInRight')
-  }, {
-    offset: "100%"
-  });
-  
-  $(".fifth").waypoint(function(){
-    $(".fifth").addClass('animated fadeIn')
-  }, {
-    offset: "90%"
-  });
-  
-  $(".sixth").waypoint(function(){
-    $(".sixth").addClass('animated fadeInRight')
-  }, {
-    offset: "100%"
-  });
-  
-  $(".seventh").waypoint(function(){
-    $(".seventh").addClass('animated fadeInLeft')
-  }, {
-    offset: "100%"
-  });
-  
-  $(".eigth").waypoint(function(){
-    $(".eigth").addClass('animated slideInLeft')
-  }, {
-    offset: "100%"
-  });
-  
-  
-  
-});
+
 
 
 
