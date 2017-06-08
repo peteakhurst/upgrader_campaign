@@ -53,6 +53,16 @@ header {
   overflow: hidden;
 }
 
+
+.logo {
+	position: relative;
+    top: 10px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+
 header .upgrader-icons a {
   text-decoration: none;
   color: lightgoldenrodyellow;
@@ -310,8 +320,8 @@ small {
 
 .success span:last-of-type {
   font-size: 1.4em; 
+	}
   
-}
 }
 
 @media (max-width: 767px) {
@@ -321,6 +331,7 @@ small {
   section.first {
     padding-top: 75px;
   }
+
 }
 
 .cta {
@@ -396,8 +407,13 @@ section.download .badges .badge-link img {
   .download{
     text-align: left;
   }
-  
+	
+	.hidden {
+  visibility: hidden;
 }
+}
+
+
 
 #portfolio .portfolio-item {
   margin: 0 0 15px;
@@ -760,7 +776,5 @@ div#maincontent {
 
 
 
-.hidden {
-  visibility: hidden;
-}
+
 
