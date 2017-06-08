@@ -1,12 +1,12 @@
 // When the DOM is ready, run this function
-$(document).ready(function() {
+
   //Set the carousel options
   $('#quote-carousel').carousel({
     pauseOnHover: true,
     interval: 3000,
   });
 
-});
+
 
 (function($) {
     "use strict"; // Start of use strict
@@ -44,19 +44,20 @@ $(document).ready(function() {
 
 
 // Add counter
-$(document).ready(function() {
+
     
     $('.counter-num').counterUp({
-        delay: 50,
-        time: 1000
+        delay: 2,
+        time: 100
     });
-});
+
 
 
 // ANIMATE ON SCROLL
 
      AOS.init({
   duration: 1200,
+	disable: 'mobile'
 		 })
   
 
