@@ -53,23 +53,6 @@ header {
   overflow: hidden;
 }
 
-.logo {
-  width: 100%;
-  height: auto;
-}
-
-.logo-img {
-  width: 80%;
-    position: relative;
-    top: 5px;
-    left: 15px;
-}
-
-.navbar-brand {
-  padding: 0;
-}
-
-
 header .upgrader-icons a {
   text-decoration: none;
   color: lightgoldenrodyellow;
@@ -82,7 +65,6 @@ header .container {
 .container .cta-header {
   padding-top: 0px;
 }
-
 
 header .intro-text .name {
   display: block;
